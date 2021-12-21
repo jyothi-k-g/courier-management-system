@@ -65,7 +65,7 @@ if (!isset($_SESSION['username'])) {
               $row=mysqli_num_rows($result);
             ?>
           <h2 class="card-text"><?php echo $row?></h2>
-          <h5 class="card-title">Total centers</h5>
+          <h5 class="card-title">Total couriers</h5>
           <a href="adminallcou.php" class="btn btn-primary">VIEW ALL COURIERS</a>
         </div>
       </div>
